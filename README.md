@@ -1,6 +1,6 @@
 # hubaaa:json-pipes
 
-Pipe json data trough filters, transformers and output handlers.
+Pipe json data trough filters, transformers and processors.
 
 # API
 
@@ -16,8 +16,6 @@ An optional filtering function that returns:
 - undefined if it doesn't care about this specific doc
 
 ### transform(context, doc)
-
-Deprecated.
 
 An optional transform function that returns the transformed document.
 
