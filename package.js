@@ -1,8 +1,8 @@
 Package.describe({
   name: 'hubaaa:json-pipes',
-  version: '0.1.0',
+  version: '0.1.1',
   // Brief, one-line summary of the package.
-  summary: 'Pipe json data trough filters, transformers and output handlers.',
+  summary: 'Pipe json data trough filters, transformers and processors.',
   // URL to the Git repository containing the source code for this package.
   git: 'https://github.com/hubaaa/meteor-json-pipes',
   // By default, Meteor will default to using README.md for documentation.
@@ -32,7 +32,7 @@ Package.onTest(function(api) {
     'practicalmeteor:mocha@2.1.0_3'
   ]);
 
-  api.use('hubaaa:json-pipes@0.1.0');
+  api.use('hubaaa:json-pipes@0.1.1');
 
   api.addFiles('JsonPipeTest.coffee');
 });
